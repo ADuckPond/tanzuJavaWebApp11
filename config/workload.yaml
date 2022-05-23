@@ -14,4 +14,4 @@ spec:
     git:
       url: https://github.com/ADuckPond/tanzuJavaWebApp11.git
       ref:
-        branch: main
+        branch: master
