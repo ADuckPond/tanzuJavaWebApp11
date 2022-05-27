@@ -33,6 +33,7 @@
 ┃ ┃ ┃ ┃ ┃ Debug Tiltfile matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml matched [**/*] -> included
+┃ ┃ ┃ ┃ ┃ Debug grype.yaml matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┃ Debug mvnw matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┃ Debug mvnw.cmd matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┃ Debug pom.xml matched [**/*] -> included
@@ -41,24 +42,25 @@
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.yml matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java matched [**/*] -> included
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[0].<combo>.transformations[1] (Exclude)
-┃ ┃ ┃ ┃ ┃  Info Will exclude [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**]
-┃ ┃ ┃ ┃ ┃ Debug .github/workflows/code-scan.yml matched [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug .gitignore didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug .mvn/wrapper/MavenWrapperDownloader.java didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug .mvn/wrapper/maven-wrapper.jar didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug .mvn/wrapper/maven-wrapper.properties didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug LICENSE didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug README.md matched [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug Tiltfile matched [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml matched [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml matched [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug mvnw didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug mvnw.cmd didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug pom.xml didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/Application.java didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/HelloController.java didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.yml didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
-┃ ┃ ┃ ┗ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java didn't match [config/*.yaml, Tiltfile, README.md, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃  Info Will exclude [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**]
+┃ ┃ ┃ ┃ ┃ Debug .github/workflows/code-scan.yml matched [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug .gitignore didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug .mvn/wrapper/MavenWrapperDownloader.java didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug .mvn/wrapper/maven-wrapper.jar didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug .mvn/wrapper/maven-wrapper.properties didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug LICENSE didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug README.md matched [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug Tiltfile matched [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml matched [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml matched [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug grype.yaml matched [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug mvnw didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug mvnw.cmd didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug pom.xml didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/Application.java didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/HelloController.java didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.yml didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
+┃ ┃ ┃ ┗ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java didn't match [config/*.yaml, Tiltfile, README.md, grype.yaml, catalog/*.yaml, .github/workflows/**] -> included
 ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1] (Combo)
 ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, Chain(chain))
 ┃ ┃ ┃ ┃ engine.transformations[0].merge.transformations[0].sources[1].<combo> (Chain)
@@ -75,6 +77,7 @@
 ┃ ┃ ┃ ┃ ┃ Debug Tiltfile matched [config/*.yaml, Tiltfile] -> included
 ┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml didn't match [config/*.yaml, Tiltfile] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml matched [config/*.yaml, Tiltfile] -> included
+┃ ┃ ┃ ┃ ┃ Debug grype.yaml didn't match [config/*.yaml, Tiltfile] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug mvnw didn't match [config/*.yaml, Tiltfile] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug mvnw.cmd didn't match [config/*.yaml, Tiltfile] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug pom.xml didn't match [config/*.yaml, Tiltfile] -> excluded
@@ -104,6 +107,7 @@
 ┃ ┃ ┃ ┃ ┃ Debug Tiltfile didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml didn't match [README.md] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug grype.yaml didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug mvnw didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug mvnw.cmd didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug pom.xml didn't match [README.md] -> excluded
@@ -131,6 +135,7 @@
 ┃ ┃ ┃ ┃ ┃ Debug Tiltfile didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug catalog/catalog-info.yaml matched [catalog/*.yaml] -> included
 ┃ ┃ ┃ ┃ ┃ Debug config/workload.yaml didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug grype.yaml didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug mvnw didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug mvnw.cmd didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug pom.xml didn't match [catalog/*.yaml] -> excluded
